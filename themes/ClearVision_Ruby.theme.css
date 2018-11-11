@@ -46,19 +46,18 @@ body::after,
 .invite-modal .invite-splash,
 .radio-theme.light label,
 .radio-theme.dark label{
-    background-image: url(https://i.imgur.com/1aG98BT.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+    /*background-image: url(https://i.imgur.com/1aG98BT.jpg) !important; */ /* IMPORTANT: Link must be HTTPS! */
 }
 
-/* Custom font
+/* Custom font */
 body {
-    font: 1em '[font name here]';
+    font: 1em 'open sans';
 }
-*/
+
 
 /* hover over emojis to enlarge them */
 .emoji.jumboable:hover {
-	width:75px;
-	height:75px;
+	transform: scale(2);
     transition:0.2s;
 }
 
@@ -66,17 +65,15 @@ body {
     transition:0.2s;
 }
 
-/* uncomment to allow ALL emojis to enlarge on hover
+/* uncomment to allow ALL emojis to enlarge on hover */
 .emoji:hover {
-    width:75px;
-    height:75px;
+    transform: scale(2);
     transition:0.2s;
 }
-
 .emoji {
     transition:0.2s;
 }
-*/
+
 
 /* consistent transparency on title bar */
 .typeWindows-15E0Ys {
